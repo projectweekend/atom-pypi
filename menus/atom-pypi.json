@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "PyPi: find latest version",
+        "command": "atom-pypi:latest"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-pypi",
+          "submenu": [
+            {
+              "label": "Find latest version",
+              "command": "atom-pypi:latest"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
